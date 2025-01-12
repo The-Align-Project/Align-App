@@ -4,7 +4,7 @@ import '../../core/providers/focus_provider.dart';
 import '../../core/models/focus_session.dart';
 
 class FocusStats extends StatelessWidget {
-  const FocusStats({Key? key}) : super(key: key);
+  const FocusStats({super.key});
 
   @override
   Widget build(BuildContext context) {

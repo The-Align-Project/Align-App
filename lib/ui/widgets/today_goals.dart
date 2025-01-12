@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TodayGoals extends StatelessWidget {
-  const TodayGoals({Key? key}) : super(key: key);
+  const TodayGoals({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +43,7 @@ class TodayGoals extends StatelessWidget {
 }
 
 class GoalListTile extends StatelessWidget {
-  const GoalListTile({Key? key}) : super(key: key);
+  const GoalListTile({super.key});
 
   @override
   Widget build(BuildContext context) {

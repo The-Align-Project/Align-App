@@ -4,7 +4,7 @@ import '../../core/providers/goal_provider.dart';
 import '../../core/models/goal.dart';
 
 class GoalForm extends StatefulWidget {
-  const GoalForm({Key? key}) : super(key: key);
+  const GoalForm({super.key});
 
   @override
   State<GoalForm> createState() => _GoalFormState();

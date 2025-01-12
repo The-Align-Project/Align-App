@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import '../../core/providers/focus_provider.dart';
 
 class FocusTracker extends StatelessWidget {
-  const FocusTracker({Key? key}) : super(key: key);
+  const FocusTracker({super.key});
 
   @override
   Widget build(BuildContext context) {

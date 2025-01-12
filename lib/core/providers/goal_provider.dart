@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import '../models/goal.dart';
 
 class GoalProvider with ChangeNotifier {
-  List<Goal> _goals = [];
+  final List<Goal> _goals = [];
   
   List<Goal> get goals => _goals;
 

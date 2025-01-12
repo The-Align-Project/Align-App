@@ -6,7 +6,7 @@ import '../../core/providers/goal_provider.dart';
 class GoalDetailsSheet extends StatelessWidget {
   final Goal goal;
 
-  const GoalDetailsSheet({Key? key, required this.goal}) : super(key: key);
+  const GoalDetailsSheet({super.key, required this.goal});
 
   @override
   Widget build(BuildContext context) {

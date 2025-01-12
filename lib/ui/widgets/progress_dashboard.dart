@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import '../../core/providers/focus_provider.dart';
 
 class ProgressDashboard extends StatelessWidget {
-  const ProgressDashboard({Key? key}) : super(key: key);
+  const ProgressDashboard({super.key});
 
   @override
   Widget build(BuildContext context) {

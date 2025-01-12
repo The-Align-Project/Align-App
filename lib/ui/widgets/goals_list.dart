@@ -7,7 +7,7 @@ import 'goal_form.dart';
 import 'goal_details.dart';
 
 class GoalsList extends StatelessWidget {
-  const GoalsList({Key? key}) : super(key: key);
+  const GoalsList({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +64,7 @@ class GoalsList extends StatelessWidget {
 class GoalCard extends StatelessWidget {
   final Goal goal;
 
-  const GoalCard({Key? key, required this.goal}) : super(key: key);
+  const GoalCard({super.key, required this.goal});
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class InsightsPage extends StatelessWidget {
-  const InsightsPage({Key? key}) : super(key: key);
+  const InsightsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -118,11 +118,11 @@ class InsightCard extends StatelessWidget {
   final String description;
 
   const InsightCard({
-    Key? key,
+    super.key,
     required this.icon,
     required this.title,
     required this.description,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

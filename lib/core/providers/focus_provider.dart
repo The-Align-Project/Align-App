@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import '../models/focus_session.dart';
 
 class FocusProvider with ChangeNotifier {
-  List<FocusSession> _sessions = [];
+  final List<FocusSession> _sessions = [];
   bool _isTracking = false;
   DateTime? _currentSessionStart;
 
